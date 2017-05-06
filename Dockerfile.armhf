@@ -24,4 +24,4 @@ ENTRYPOINT ["/usr/bin/docker-entrypoint.sh"]
 
 VOLUME ["/export"]
 
-CMD ["minio"]
+CMD ["server", "/export"]
